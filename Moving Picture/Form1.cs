@@ -59,11 +59,14 @@ namespace Moving_Picture
             }
         }
 
-        private void buttonR_Click(object sender, EventArgs e)
+        private async void buttonR_Click(object sender, EventArgs e)
         {
             if (pictureBox1.Location.X + 5 < ClientRectangle.Width - pictureBox1.Width)
             {
                 pictureBox1.Location = new Point(pictureBox1.Location.X + 5, pictureBox1.Location.Y);
+                await Task.Delay(500);
+                pictureBox1.Location = new Point(pictureBox1.Location.X- 5, pictureBox1.Location.Y);
+                await Task.Delay(500);
             }
         }
 

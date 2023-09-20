@@ -53,7 +53,7 @@
             // pictureBox1
             // 
             this.pictureBox1.Image = global::Moving_Picture.Properties.Resources.Marco_Bezzecchi_72__Photo_courtesy_Mooney_VR46_Racing_Team_2_1687613337;
-            this.pictureBox1.Location = new System.Drawing.Point(1058, 42);
+            this.pictureBox1.Location = new System.Drawing.Point(668, 170);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(262, 176);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
